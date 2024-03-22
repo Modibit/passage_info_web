@@ -1,0 +1,27 @@
+<html>
+  <head>
+    <!-- ... -->
+    <script src="flutter.js" defer></script>
+  </head>
+  <body>
+    <div id="loading"></div>
+    <script>
+      window.addEventListener('load', function(ev) {
+        var loading = document.querySelector('#loading');
+        loading.textContent = "در حال بارگزاری";
+        _flutter.loader.loadEntrypoint({
+          serviceWorker: {
+            serviceWorkerVersion: serviceWorkerVersion,
+          },
+          onEntrypointLoaded: async function(engineInitializer) {
+            loading.textContent = "...";
+            let appRunner = await engineInitializer.initializeEngine();
+
+            loading.textContent = "اجرای برنامه...";
+            await appRunner.runApp();
+          }
+        });
+      });
+    </script>
+  </body>
+</html>
