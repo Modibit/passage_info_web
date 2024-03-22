@@ -82796,7 +82796,7 @@ q.cx.sl(0,n)
 if(k.h(m,"needUpdate"))A.aDF($.bA(),new A.pB(q,null),p)
 if(k.h(m,"valid"))q.ay.sl(0,!0)
 if(!k.h(m,"valid"))q.ch.sl(0,!1)
-if(!k.h(m,"needUpdate")&&k.h(m,"isRescue"))i.scm(0,"")}else{A.k0(l.d)
+if(!k.h(m,"needUpdate")&&!k.h(m,"isRescue"))i.scm(0,"")}else{A.k0(l.d)
 A.I4($.bA(),"\u062e\u0637\u0627","\u0645\u0634\u06a9\u0644\u06cc \u067e\u06cc\u0634 \u0622\u0645\u062f\u0647 \u0644\u0637\u0641\u0627 \u0635\u0641\u062d\u0647 \u0631\u0627 \u0645\u062c\u062f\u062f\u0627 \u0628\u0627\u0631\u06af\u0632\u0627\u0631\u06cc \u06a9\u0646\u06cc\u062f",B.cb,B.j,B.dz,null)}q.nU(!1)
 s=3
 break
