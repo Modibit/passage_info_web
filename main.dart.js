@@ -84304,7 +84304,7 @@ q=6
 h=A.a9Y(n,"POST")
 g=t.z
 s=9
-return A.O(J.auY(l,"http://localhost:4080/config",m,h,g),$async$j5)
+return A.O(J.auY(l,"https://api.passagenet.ir/config",m,h,g),$async$j5)
 case 9:k=a1
 s=k.c===200?10:12
 break
@@ -84378,7 +84378,7 @@ n=q.ax
 m=n.a.a
 l=m[0]==="{"?B.ac.hY(A.ak(["v2json",B.ac.ym(0,m,null)],p,t.z)):B.ac.hY(A.ak(["link",m],p,p))
 s=2
-return A.O(A.a_b(null).uX(0,"http://localhost:4080/update",l,A.a9Y(o,"PUT"),t.z),$async$qA)
+return A.O(A.a_b(null).uX(0,"https://api.passagenet.ir/update",l,A.a9Y(o,"PUT"),t.z),$async$qA)
 case 2:k=b
 s=k.c===200?3:5
 break
@@ -84410,7 +84410,7 @@ m=n.a.a
 l=m[0]==="{"?B.ac.hY(A.ak(["v2json",B.ac.ym(0,m,null)],p,t.z)):B.ac.hY(A.ak(["link",m],p,p))
 p=t.z
 s=2
-return A.O(A.a_b(null).uX(0,"http://localhost:4080/rescue",l,A.a9Y(o,"POST"),p),$async$qs)
+return A.O(A.a_b(null).uX(0,"https://api.passagenet.ir/rescue",l,A.a9Y(o,"POST"),p),$async$qs)
 case 2:k=b
 s=k.c===200?3:5
 break
@@ -84459,7 +84459,7 @@ m=f
 l=A.a_b(null)
 q=7
 s=10
-return A.O(J.auY(l,"http://localhost:4080/renew?link="+A.h(o.dx.gl(0).a),m,A.a9Y(n,"POST"),g),$async$qp)
+return A.O(J.auY(l,"https://api.passagenet.ir/renew?link="+A.h(o.dx.gl(0).a),m,A.a9Y(n,"POST"),g),$async$qp)
 case 10:k=a1
 s=k.c===200?11:13
 break
